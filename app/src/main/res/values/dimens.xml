@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_margin_text">60dp</dimen>
+    <dimen name="text_width">300dp</dimen>
+    <dimen name="text_size">25sp</dimen>
+    <dimen name="send_height">48dp</dimen>
+    <dimen name="recv_text_height">50dp</dimen>
+    <dimen name="recv_text_width">300dp</dimen>
+    <dimen name="recv_text_size">40sp</dimen>
+    <dimen name="recv_top_margin">20dp</dimen>
+    <dimen name="recv_start_margin">40dp</dimen>
+    <dimen name="icon_margin">16dp</dimen>
+
+</resources>

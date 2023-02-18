@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SecondFragment">
+
+    <TextView
+        android:id="@+id/received_value_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/recv_text_size"
+        android:layout_marginTop="@dimen/recv_top_margin"
+        android:layout_marginStart="@dimen/recv_start_margin"
+        />
+</LinearLayout>
+
+

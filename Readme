@@ -1,0 +1,24 @@
+Aplicatia rezolva 3 task-uri:
+
+Task 1
+- Aplicatia contine o activitate A care incarca un fragment.
+- In activitatea A e un EditText si un buton.
+- Click pe butonul respectiv porneste o alta activitate B cu alt fragment care va afisa intr-un textView ce era scris in editText-ul din activitatea A.
+
+
+Task 2
+- La fiecare instalare de aplicatie noua din playStore (facebook, opera, jocuri, orice) se arunca o notificare + toast.
+- Text notificare: "Hey, you just installed [name_installed_app]" 
+- Text toast: "Hey, this is a toast, you just installed [name_installed_app]" 
+- Notificarea nu se poate sterge prin dismiss, iar la click pe notificare aceasta se sterge si porneste aplicatia care va incarca un dialog cu textul: "You just clicked on [name_installed_app] notification" 
+- Numele fiecarei aplicatii instalate va fi salvat intr-o baza de date locala.
+- Aplicatia are un buton (in meniu / activitatea A de mai sus) care la click pe el va deschide intr-un alt fragment in activitatea A o lista cu numele si iconita fiecarei aplicatii instalate.
+
+
+Task 3
+- Aplicatia programeaza o alarma care se va executa la fiecare 2 ore. 
+- Cand se declanseaza alarma se va executa un request folosind Retrofit2 catre API-ul https://api.darksky.net/forecast/cd7438568695fce10d02a8dec94a28db/44.42,26.10
+- Din tot response-ul, se extrage temperatura actuala, si se afiseaza in grade C intr-o notificare care poate fi stearsa + un toast.
+- Daca notificarea nu este stearsa si mai trec 2 ore, atunci se va afisa temperatura noua in notificare.
+
+

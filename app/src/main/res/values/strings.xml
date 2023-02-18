@@ -1,0 +1,16 @@
+<resources>
+<string name="app_name">ProblemInternship</string>
+<string name="input">Type_text</string>
+<string name="send">send</string>
+<string name="hello_blank_fragment">Hello blank fragment</string>
+<string name="app_added">Hey, this is a toast, you just installed %1$s</string>
+<string name="app_removed">%1$s uninstalled successfully by Task2</string>
+<string name="app_added_notification">Hey, you just installed %1$s</string>
+<string name="app_dialog">You just clicked on %1$s notification</string>
+<string name="last_app">LastAppInstalled</string>
+<string name="title_notif_app_added">Reminder</string>
+<string name = "notif_description">Notification</string>
+<string name="list">List</string>
+<string name="nothing">Nothing</string>
+<string name="nameapp">NameApp!</string>
+</resources>
